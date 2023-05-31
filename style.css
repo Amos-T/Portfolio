@@ -1,13 +1,15 @@
+
 .Button {
     background: #7079f0;
     color: white;
     font-family: inherit;
+    justify-content: center;
     padding: 0.45em;
     padding-left: 1.0em;
     font-size: 17px;
     font-weight: 500;
     border-radius: 0.9em;
-    border: none;
+    border: outset green;
     letter-spacing: 0.05em;
     display: flex;
     align-items: center;
@@ -17,5 +19,20 @@
     height: 2.8em;
     padding-right: 3em;
   }
+  .Button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+  }
   
+  .Button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }
   
+  .sidebyside{
+    float: left;
+    ;
+  }
+  h1 {
+    font-size: 80px
+  }
