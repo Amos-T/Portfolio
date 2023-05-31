@@ -36,3 +36,21 @@
   h1 {
     font-size: 80px
   }
+
+  .center{
+    display: grid;
+    place-items: center;
+  }
+
+  .logos img{
+    width: 15%;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+  }
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
