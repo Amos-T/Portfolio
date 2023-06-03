@@ -29,33 +29,29 @@
     box-shadow: 0.05em 0.05em #5566c2;
   }
   
-  .sidebyside{
-    float: left;
-    ;
-  }
   h1 {
     font-size: 80px
   }
 
-  .center{
+  #center{
     display: grid;
     place-items: center;
   }
 
-  .logos img{
-    width: 15%;
-    aspect-ratio: 4/3;
-    object-fit: contain;
-    mix-blend-mode: color-burn;
-  }
-
-  .logo{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-  #larger{
-    width: 500px;
-    height: 300px;
-    
-  }
+.placing{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode: color-burn;
+ }
+ #nav{
+  margin: 0;
+  padding: 0;
+  ;
+ }
+ #nav li {
+  list-style: none;
+  float: left;
+  padding-right: 90px
+  ;
+ }
