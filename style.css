@@ -20,6 +20,7 @@ h1 {
   line-height: 70px;
   margin-top: unset;
   background-color: #00000042;
+  
  }
   
   #nav ul{
@@ -30,11 +31,67 @@ h1 {
  
  #nav li {
   display: inline;
-  padding: 5%;
+  padding: 10%;
+  
  }
 
  #nav li a{
-  color: rgb(19, 172, 19);
+  font-size: 20px;
+  color: blue;
   text-decoration: none;
   text-align: center;
  }
+
+ .contactform>input{
+  background-color: black;
+  margin: none;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px
+
+ }
+ button{
+  width: 100%;
+  background-color: darkgray;
+  margin: none;
+  padding: 15px;
+  cursor: pointer;
+ }
+
+
+
+#form{
+  display: grid;
+  place-items: center;
+  align-items: center;
+} 
+
+.submit{
+  color: black;
+  background-color: transparent;
+}
+.submit:hover{
+  color: grey;
+  background-color: black;
+}
+.mypic{
+
+  width: 900px;
+  height: 400px;
+}
+
+#blog{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#blogbutton{
+  font-size: 30px;
+  color: black;
+  background-color: darkgray;
+}
+#blogbutton:hover{
+  color: grey;
+  background-color: black;
+}
