@@ -3,12 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Belanosima, Roboto;
-    background: #1a1d4c;
+    /* background: #1a1d4c; */
 }
 
 body{
-    background: transparent;
-    
+    color: #ededed;
 }
 
 .header{
@@ -44,6 +43,8 @@ body{
 }
 
 .home{
+    background: url(Amos\ bg.jpg) no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
