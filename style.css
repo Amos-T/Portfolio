@@ -413,18 +413,18 @@ body{
 
 @media (max-width: 920px) {
     .home{
-        height: 130vh
+        height: 140vh
     }
 }
 
 @media (max-width: 550px) {
     .home{
-        height: 150vh
+        height: 160vh
     }
 }
 
 @media (max-width: 420px) {
     .home{
-        height: 160vh
+        height: 170vh
     }
 }
