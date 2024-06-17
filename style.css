@@ -16,7 +16,7 @@ body{
     top: 0;
     left: 0;
     width:100%;
-    padding: 20px 10%;
+    padding: 20px 3%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,7 +47,7 @@ body{
 .navbar a{
     font-size: 20px;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 310;
     margin-left: 35px;
     color: aliceblue;
     transition: 1.5s;
@@ -257,11 +257,11 @@ body{
     padding: 0 20px;
     min-width: 160px;
     height: 50px;
-    background-color: #57b846;
+    background-color: #0c0127;
     border-radius: 25px;
     font-family: Poppins-Regular;
     font-size: 16px;
-    color: #fff;
+    color: #00abf0;
     line-height: 1.2;
     -webkit-transition: all .4s;
     -o-transition: all .4s;
@@ -272,17 +272,18 @@ body{
 
 
 .about{
-    height: 50vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     padding: 0 10%;
+    background: #0c0127;
 }
 
 .about-content{
-    max-width: 600px;
+    /* max-width: 600px; */
 }
 
-.about-content h1{
+.about-content h2{
     position: relative;
     display: flex;
     align-items: center;
@@ -294,22 +295,22 @@ body{
     line-height: 1.2;
 }
 
-.about-content h1::before{
+.about-content h2::before{
     content: '';
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     right: 0;
     width: 100%;
     height: 100%;
-    background: #0c0127;
+    background: #7a5bc7;
     animation: showRight 1s ease forwards;
     animation-delay: 1s;
 }
 
 .about-content h3{
-    position: relative;
+    /* position: relative; */
     font-size: 35px;
-    color: blue;
+    color: rgb(6, 112, 131);
 }
 
 .about-content h3::before{
@@ -322,6 +323,46 @@ body{
     background: #0c0127;
     animation: showRight 1s ease forwards;
     animation-delay: 1.3s;
+}
+
+.about-info{
+    display: grid;
+    grid-template-areas: 
+    'bioimage bio bio'
+    'aw1 aw2 aw3 aw4 aw5';
+    grid-gap: 1.2rem;
+}
+
+.bio-image{
+    height: 70px;
+    width: 70px;
+    grid-area: bioimage;
+}
+
+.bio{
+    grid-area: bio;
+    border-left: 3px solid #0c0127;
+    padding: 0.8rem;
+}
+
+.certificate-1{
+    grid-area: aw1;
+}
+
+.certificate-2{
+    grid-area: aw2;
+}
+
+.certificate-3{
+    grid-area: aw3;
+}
+
+.certificate-4{
+    grid-area: aw4;
+}
+
+.certificate-5{
+    grid-area: aw5;
 }
 
 .btn-box{
@@ -400,32 +441,32 @@ body{
     width: 100%;
 }
 
-.home-sci{
-    position: relative;
+.icons{
+    /* position: relative; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6d6b74;
+    background-color: #0c0127;
     bottom: 40px;
     width: 100%;
     padding: 10px 70px;
     
 }
 
-.home-sci::before{
+.icons::before{
     content: '';
     position: absolute;
     top: 0;
     right: 0;
     width: 100%;
     height: 100%;
-    background: #1a1d4c;
+    background: #0c0127;
     animation: showRight 1s ease forwards;
     animation-delay: 2.5s;
     z-index: 2;
 }
 
-.home-sci a{
+.icons a{
     position: relative;
     display: inline-flex;
     width: 40px;
@@ -442,7 +483,7 @@ body{
     overflow: hidden;
 }
 
-.home-sci a::before{
+.icons a::before{
     content: '';
     position: absolute;
     top: 0;
@@ -450,11 +491,11 @@ body{
     width: 0;
     height: 100%;
     z-index: -1; 
-    background: #00abf0;
+    /* background: #0c0127; */
     transition: .5s;
 }
 
-.home-sci a:hover::before{
+.icons a:hover::before{
     width: 100%;
 }
 
